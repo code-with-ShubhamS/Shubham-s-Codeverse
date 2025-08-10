@@ -39,7 +39,7 @@ const Profile = () => {
       color: "hover:bg-blue-600 hover:text-white",
     },
     {
-      href: "mailto:ghostoperator846@gmail.com",
+      href: "mailto:codewithshub12@gmail.com",
       icon: Mail,
       label: "Email",
       color: "hover:bg-red-500 hover:text-white",
@@ -52,7 +52,7 @@ const Profile = () => {
     },
   ];
 
- return (
+  return (
     <div className="mx-auto mt-6 px-4 sm:px-6 lg:px-8">
       {/*  Header */}
       <div className="flex flex-col-reverse md:flex-row items-center justify-between gap-8 md:gap-12">
@@ -71,30 +71,26 @@ const Profile = () => {
           {/*  Description */}
           <div className="mt-6 space-y-4">
             <p className="text-base sm:text-lg text-gray-200 leading-relaxed hover:text-white transition-colors duration-300">
-              Hello, I'm Shubham Semwal, a{" "}
-              <span  className="underline decoration-wavy decoration-customGray text-[1.1rem] font-semibold text-[#f5f5dc]" >full Stack Developer</span>{" "}
-              who enjoys building interesting things with code. Welcome to my
-              digital space!
+              Hi there, I’m Shubham Semwal — a{" "}
+              <span className="underline decoration-wavy decoration-customGray text-[1.1rem] font-semibold text-[#f5f5dc]">
+                Full Stack Developer
+              </span>{" "}
+              with a passion for crafting efficient, scalable backend systems
+              and bringing them to life with clean, responsive UIs.
             </p>
             <p className="text-base sm:text-lg text-gray-200 leading-relaxed hover:text-white transition-colors duration-300">
-              My expertise lies in developing{" "}
-              <span className="font-semibold text-white">
-                responsive user interfaces
-              </span>{" "}
-              for web-based applications, ensuring a secure and seamless user
-              experience.
+              I work mainly with the MERN stack, building secure, user-friendly
+              applications from the database all the way to the browser.
             </p>
           </div>
         </div>
         {/*  Profile Image */}
         <div className="w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 flex-shrink-0 flex items-center justify-center mb-6 md:mb-0">
-          <BlurVignetteDemo/>
+          <BlurVignetteDemo />
         </div>
       </div>
       {/*  Social Links */}
-      <div
-        className={`mt-8 transform transition-all duration-1000 delay-700 `}
-      >
+      <div className={`mt-8 transform transition-all duration-1000 delay-700 `}>
         <div className="flex flex-wrap gap-3 sm:gap-4 justify-center sm:justify-start">
           {socialLinks.map((link, index) => (
             <a
@@ -132,7 +128,6 @@ const Profile = () => {
           ))}
         </div>
       </div>
-      
     </div>
   );
 };

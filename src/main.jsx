@@ -7,6 +7,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Project from "./pages/Project";
 import CommingSoon from "./components/CommingSoon";
+import AlgorithmVisualizer from "./pages/Playground";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -30,7 +31,7 @@ const router = createBrowserRouter([
       },
       {
         path: '/playground',
-        element: <CommingSoon/>,
+        element: <AlgorithmVisualizer/>,
       },
 
     ]

@@ -18,7 +18,7 @@ export default function Background() {
 
         {/* Particle effects - subtle dots */}
         <div className="absolute inset-0 opacity-20">
-          {Array.from({ length: 20 }).map((_, i) => (
+          {Array.from({ length: 40 }).map((_, i) => (
             <motion.div
               key={i}
               className="absolute h-1 w-1 rounded-full bg-white"
