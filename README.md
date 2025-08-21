@@ -1,4 +1,4 @@
-# 👨‍💻 Shubham Kumar — Developer Portfolio
+# 👨‍💻 Shubham Semwal — Developer Portfolio
 
 Welcome to my developer portfolio!  
 I'm a passionate **Full Stack Developer** who loves turning ideas into interactive web experiences. This portfolio showcases my **projects**, **tools**, and a special **playground** where I experiment with modern web tech.
