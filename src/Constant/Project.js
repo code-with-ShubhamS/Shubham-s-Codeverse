@@ -1,22 +1,22 @@
 const ProjectArray =[
-     {
-        tittle:"360 View",
-        description:"A 360 View of images in which you can see the 360 view and go through one image to another. It build with the help of krpano.",
-        image:"./india360.png",
-        technology:["Html","Css","JavaScript","krpano"],
-        publishDate:"1 Auguest 2025",
-        sourceCodeUrl:null,
-        LiveLink:"https://code-with-shubhams.github.io/India360/"
-    },
-     {
-        tittle:"Price Prediction Website",
-        description:"Evolkun is an AI-powered tool that instantly estimates the cost of building a website or digital project. Users just fill out a short form with their requirements, and the AI predicts a fair price based on the project’s scope.",
-        image:"./evolkun.png",
-        technology:["Next js","MongoDB","Tailwand Css" ,"OAuth","OpenAI"],
-        publishDate:"12 June 2025",
-        sourceCodeUrl:null,
-        LiveLink:"https://evolkun.com/"
-    },
+    //  {
+    //     tittle:"360 View",
+    //     description:"A 360 View of images in which you can see the 360 view and go through one image to another. It build with the help of krpano.",
+    //     image:"./india360.png",
+    //     technology:["Html","Css","JavaScript","krpano"],
+    //     publishDate:"1 Auguest 2025",
+    //     sourceCodeUrl:null,
+    //     LiveLink:"https://code-with-shubhams.github.io/India360/"
+    // },
+    //  {
+    //     tittle:"Price Prediction Website",
+    //     description:"Evolkun is an AI-powered tool that instantly estimates the cost of building a website or digital project. Users just fill out a short form with their requirements, and the AI predicts a fair price based on the project’s scope.",
+    //     image:"./evolkun.png",
+    //     technology:["Next js","MongoDB","Tailwand Css" ,"OAuth","OpenAI"],
+    //     publishDate:"12 June 2025",
+    //     sourceCodeUrl:null,
+    //     LiveLink:"https://evolkun.com/"
+    // },
     {
         tittle:"Storage Website",
         description:"A Storage Website where you can store your files and access them from anywhere. Just like Google Drive.",
